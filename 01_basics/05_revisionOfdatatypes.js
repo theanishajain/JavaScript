@@ -14,6 +14,7 @@ const myFunc = function(){
     console.log("Hello");
 }
 console.log(typeof obj1);
+// console.log(myfunc());
 
 //++++++++++++++++Stack(Primitive)  , Heap(Non-Primitive)
 //Stack -- copy
