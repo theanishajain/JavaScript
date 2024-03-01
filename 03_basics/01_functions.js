@@ -28,7 +28,7 @@ const result = addTwoNumbers(3, 5)
 
 
 function loginUserMessage(username = "sam"){
-    if(!username){
+    if(!username){//or if its undefined(username===undefined)
         console.log("PLease enter a username");
         return
     }
@@ -42,6 +42,10 @@ function loginUserMessage(username = "sam"){
 function calculateCartPrice(val1, val2, ...num1){
     return num1
 }
+
+
+
+// ******REST OPERATOR******Alert : spread and rest operator look alike but their usecases are different
 
 // console.log(calculateCartPrice(200, 400, 500, 2000))
 
